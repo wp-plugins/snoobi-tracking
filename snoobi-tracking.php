@@ -35,7 +35,7 @@ function print_snoobi_tracking_code() {
 } // ends bintro_print
 
 
-function bintro_add_options_page() {
+function snoobi_tracking_add_options_page() {
   add_options_page('Snoobi Tracking', 'Snoobi Tracking', 8, basename(__FILE__), 'snoobi_tracking_options_page');
 }
 
@@ -81,4 +81,4 @@ function snoobi_tracking_options_page() { ?>
 
 add_action('wp_footer', 'bintro_print');
 
-add_action('admin_menu', 'snoobi_tracking_options_page');
+add_action('admin_menu', 'snoobi_tracking_add_options_page');

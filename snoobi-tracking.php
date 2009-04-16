@@ -1,8 +1,9 @@
 <?php
 /*
 Plugin Name: Snoobi Tracking
+Plugin URI: http://wordpress.org/extend/plugins/snoobi-tracking/
 Author: Jussi Ruokom&auml;ki
-Version: 1.0
+Version: 1.0.1
 Author URI: http://jussi.ruokomaki.fi/
 Description: Track your visitors with Snoobi web analytics. <a href="options-general.php?page=blog-introduction.php">Add the name of your Snoobi account to get started.</a> 
 */
